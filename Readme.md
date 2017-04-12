@@ -1,6 +1,6 @@
 # Личный проект «Нёрдс»
 
-* Студент: [Olzhas Kurikov](https://up.htmlacademy.ru/htmlcss/17/user/370623).
+* Студент: [Олжас Куриков](https://up.htmlacademy.ru/htmlcss/17/user/370623).
 * Наставник: `Юла Антонова`.
 
 ---
