@@ -6,7 +6,7 @@
   </head>
   <body>
     <header class="site-header">
-      <div class="up-container">
+      <div class="header-navigation">
         <nav class="site-navigation">
           <a class="nerds-logo" href="#">
             <img src="#" width="160" height="65" alt="Nerds Logo">
@@ -30,19 +30,37 @@
           <a class="basket" href="#">Корзина</a>
         </div>
       </div>
-      <div class="down-container">
-        <ul class="slider">
-          <li class="slider-1">
+      <div class="slider-controls"></div>
+      <div class="slider-inner">
+        <div class="slider-slides">
+          <div class="slider-1">
             <div class="slider-1-content">
+              <img src="#" width="1440" height="415" alt="phones">
               <b class="slider-content-title">Долго, дорого, скрупулезно</b>
               <p>Математический выверенный дизайн для вашего сайта или
                 мобильного приложения.</p>
-              <a class="btn" href="#">Узнайти больше</a>
+              <a class="btn-slider-inner" href="#">Узнайти больше</a>
             </div>
-          </li>
-          <li class="slider-2">Второй слайд</li>
-          <li class="slider-3">Третий слайд</li>
-        </ul>
+          </div>
+          <div class="slider-2">
+            <div class="slider-2-content">
+              <img src="#" width="1440" height="415" alt="screens">
+              <b class="slider-content-title">Любим математику как никто другой</b>
+              <p>Никого креатива, только математические формулы для расчета
+                идеальных пропорций.</p>
+              <a class="btn-slider-inner" href="#">Узнайти больше</a>
+            </div>
+          </div>
+          <div class="slider-3">
+            <div class="slider-3-content">
+              <img src="#" width="1440" height="415" alt="tablets">
+              <b class="slider-content-title">Только ночь, только хардкор</b>
+              <p>Работать днем, как все? Мы против этого. Ближе к полуночи работа
+              только начинается</p>
+              <a class="btn-slider-inner" href="#">Узнайти больше</a>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
     <main>
@@ -114,5 +132,20 @@
         </section>
       </div>
     </footer>
+    <div class="wrtie us">
+     <h2 class="write us-title">Напишите нам</h2>
+     <form class="message-form" action="#" method="post">
+      <label for "form-name">
+        Ваше имя:<input type="text" name="name" value="" placeholder="Представтесь, пожалуйста">
+      </label>
+      <label for "form-email">
+        Ваше email:<input type="text" name="email" value="" placeholder="Для отправки ответа">
+      </label>
+      <label for "form-text">
+        Текст письма:<input type="text" name="name" value="" placeholder="В свободной форме">
+      </label>
+      <button class="btn" type="submit">Отправить</button>
+     </form>
+   </div>
   </body>
 </html>
