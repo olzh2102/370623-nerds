@@ -6,7 +6,7 @@
   </head>
   <body>
     <header class="site-header">
-      <div class="up-container">
+      <div class="header-navigation">
         <nav class="site-navigation">
           <a class="nerds-logo" href="#">
             <img src="#" width="160" height="65" alt="Nerds Logo">
@@ -19,7 +19,7 @@
               <a href="#">Клиенты</a>
             </li>
             <li>
-              <a href="#">Магазин</a>
+              <a href="catalog.html">Магазин</a>
             </li>
             <li>
               <a href="#">Контакты</a>
@@ -30,7 +30,7 @@
           <a class="basket" href="#">Корзина</a>
         </div>
       </div>
-      <div class="down-container">
+      <div class="header-title">
         <p><h1 class="container-title">Магазин готовых шаблонов</h1></p>
       </div>
     </header>
@@ -51,9 +51,7 @@
           <h2 class="control-title">Сетка:</h2>
           <ul class="control-type-list">
             <li>
-              <label>
                <input type="radio" name="adap">Адаптивная
-             </label>
             </li>
             <li>
               <input type="radio" name="fixed">Фиксированная
@@ -64,35 +62,26 @@
           </ul>
         </div>
         <div class="control-features">
-          <h2 class="control-title">Особенности</h2>
+          <h2 class="control-title">Особенности:</h2>
           <ul class="control-features-list">
             <li>
-              <label>
                <input type="checkbox" name="slider">Слайдер
-             </label>
             </li>
             <li>
-              <label>
                <input type="checkbox" name="block-adv">Блок преимуществ
-             </label>
             </li>
             <li>
-              <label>
                <input type="checkbox" name="news">Новости
-             </label>
             </li>
             <li>
-              <label>
                <input type="checkbox" name="gallery">Галерея
-             </label>
             </li>
             <li>
-              <label>
                <input type="checkbox" name="basket">Корзина
-             </label>
             </li>
           </ul>
         </div>
+        <a class="btn" href="#">Показать</a>
       </form>
       <div class="filter-items">
         <h2 class="filter-title">Сортировать</h2>
@@ -159,16 +148,16 @@
         </div>
         <ul class="items-pages">
           <li>
-            <a href="#">1</a>
+            <button class="btn-items-1" type="button">1</button>
           </li>
           <li>
-            <a href="#">2</a>
+            <button class="btn-items-2" type="button">2</button>
           </li>
           <li>
-            <a href="#">3</a>
+            <button class="btn-items-3" type="button">3</button>
           </li>
           <li>
-            <a href="#">Следующая</a>
+            <button class="btn-items-next" type="button">Следующая</button>
           </li>
         </ul>
       </div>
@@ -198,3 +187,20 @@
         </section>
       </div>
     </footer>
+    <div class="wrtie us">
+     <h2 class="write us-title">Напишите нам</h2>
+     <form class="message-form" action="#" method="post">
+      <label for "form-name">
+        Ваше имя:<input type="text" name="name" value="" placeholder="Представтесь, пожалуйста">
+      </label>
+      <label for "form-email">
+        Ваше email:<input type="text" name="email" value="" placeholder="Для отправки ответа">
+      </label>
+      <label for "form-text">
+        Текст письма:<input type="text" name="name" value="" placeholder="В свободной форме">
+      </label>
+      <button class="btn" type="submit">Отправить</button>
+     </form>
+   </div>
+  </body>
+</html>
