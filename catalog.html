@@ -86,92 +86,74 @@
         </div>
         <button class="btn" type="submit">Показать</button>
       </form>
-      <div class="catalog-wrapper">
-        <p class="catalog-wrapper-title">Сортировать</p>
-        <ul class="catalog-wrapper-types">
-          <li>
-            <a href="#">По цене</a>
-          </li>
-          <li>
-            <a href="#">По типу</a>
-          </li>
-          <li>
-            <a href="#">По названию</a>
-          </li>
-          <div class="arrow-container">
-            <ul class="arrow-container-types">
-              <li>
-                <a href="#">Вверх</a>
-              </li>
-              <li>
-                <a href="#">Вниз</a>
-              </li>
-            </ul>
-          </div>
+      <div class="sort-block">
+        <p class="sort-block-title">Сортировать</p> //это не заголовок обертки каталога, это заголовок списка сортировки
+        <ul class="sort-types"> // сортировка по типу
+          <li><a href="#">По цене</a></li>
+          <li><a href="#">По типу</a></li>
+          <li><a href="#">По названию</a></li>
         </ul>
-        <div class="catalog-items-list">
-         <article class="catalog-item">
-           <img src="img/img-sedona-jpg.jpg" alt="item">
-           <div class="catalog-item-info">
-             <h2 class="catalog-item-title">Sedona</h2>
-             <p class="catalog-item-description">Информационный сайт для туристов</p>
-             <a class="price-btn" href="#">9900 руб.</a>
-           </div>
-         </article>
-         <article class="catalog-item">
-            <img src="img/img-pink-jpg.jpg" alt="item">
-            <div class="catalog-item-info">
-              <h2 class="item-title">Item 2</h2>
-              <p class="item-description">Информационный сайт для туристов</p>
-              <a class="price-btn" href="#">9900 руб.</a>
-            </div>
-         </article>
-         <article class="catalog-item">
-            <img src="img/img-barbershop-jpg.jpg" alt="item">
-            <div class="catalog-item-info">
-              <h2 class="item-title">Item 3</h2>
-              <p class="item-description">Информационный сайт для туристов</p>
-              <a class="price-btn" href="#">9900 руб.</a>
-            </div>
-         </article>
-         <article class="catalog-item">
-            <img src="img/img-mishka-jpg.jpg" alt="item">
-            <div class="catalog-item-info">
-             <h2 class="item-title">Item 4</h2>
-             <p class="item-description">Информационный сайт для туристов</p>
-             <a class="price-btn" href="#">9900 руб.</a>
-            </div>
-         </article>
-         <article class="catalog-item">
-            <img src="img/img-aplus-jpg.jpg" alt="item">
-            <div class="catalog-item-info">
-              <h2 class="item-title">Item 5</h2>
-              <p class="item-description">Информационный сайт для туристов</p>
-              <a class="price-btn" href="#">9900 руб.</a>
-            </div>
-         </article>
-         <article class="catalog-item">
-            <img src="img/img-kvast-jpg.jpg" alt="item">
-            <div class="catalog-item-info">
-              <h2 class="item-title">Item 6</h2>
-              <p class="item-description">Информационный сайт для туристов</p>
-              <a class="price-btn" href="#">9900 руб.</a>
-            </div>
-         </article>
-        </div>
+        <ul class="sort-directions"> // сортировка по направлению
+          <li><a href="#" class="arr-up">По возрастанию</a></li>
+          <li><a href="#" class="arr-down">По убыванию</a></li>
+        </ul>
+      </div>
+      <div class="catalog-items-list">
+        <article class="catalog-item">
+          <img src="img/img-sedona-jpg.jpg" alt="item">
+          <div class="catalog-item-info">
+            <h2 class="catalog-item-title">Sedona</h2>
+            <p class="catalog-item-description">Информационный сайт для туристов</p>
+            <a class="price-btn" href="#">9900 руб.</a>
+          </div>
+        </article>
+        <article class="catalog-item">
+          <img src="img/img-pink-jpg.jpg" alt="item">
+          <div class="catalog-item-info">
+            <h2 class="item-title">Item 2</h2>
+            <p class="item-description">Информационный сайт для туристов</p>
+            <a class="price-btn" href="#">9900 руб.</a>
+          </div>
+        </article>
+        <article class="catalog-item">
+          <img src="img/img-barbershop-jpg.jpg" alt="item">
+          <div class="catalog-item-info">
+            <h2 class="item-title">Item 3</h2>
+            <p class="item-description">Информационный сайт для туристов</p>
+            <a class="price-btn" href="#">9900 руб.</a>
+          </div>
+        </article>
+        <article class="catalog-item">
+          <img src="img/img-mishka-jpg.jpg" alt="item">
+          <div class="catalog-item-info">
+            <h2 class="item-title">Item 4</h2>
+            <p class="item-description">Информационный сайт для туристов</p>
+            <a class="price-btn" href="#">9900 руб.</a>
+          </div>
+        </article>
+        <article class="catalog-item">
+          <img src="img/img-aplus-jpg.jpg" alt="item">
+          <div class="catalog-item-info">
+            <h2 class="item-title">Item 5</h2>
+            <p class="item-description">Информационный сайт для туристов</p>
+            <a class="price-btn" href="#">9900 руб.</a>
+          </div>
+        </article>
+        <article class="catalog-item">
+          <img src="img/img-kvast-jpg.jpg" alt="item">
+          <div class="catalog-item-info">
+            <h2 class="item-title">Item 6</h2>
+            <p class="item-description">Информационный сайт для туристов</p>
+            <a class="price-btn" href="#">9900 руб.</a>
+          </div>
+        </article>
+      </div>
+      <div class="catalog-item-pages">
         <ul class="items-pages">
-          <li>
-            <a href="#" class="btn-items-1">1</a>
-          </li>
-          <li>
-            <a href="#" class="btn-items-2">2</a>
-          </li>
-          <li>
-            <a href="#" class="btn-items-3">3</a>
-          </li>
-          <li>
-            <a href="#" class="btn-items-next">Следующая</a>
-          </li>
+          <li><a href="#" class="btn-items-1">1</a></li>
+          <li><a href="#" class="btn-items-2">2</a></li>
+          <li><a href="#" class="btn-items-3">3</a></li>
+          <li><a href="#" class="btn-items-next">Следующая</a></li>
         </ul>
       </div>
     </main>
